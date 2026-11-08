@@ -74,13 +74,13 @@ async def root():
 async def health():
     return {"status": "ok"}
 
-# Include Routers
-app.include_router(auth_router)
-app.include_router(product_router)
-app.include_router(stock_router)
-app.include_router(order_router)
-app.include_router(report_router)
-app.include_router(user_router)
+# Include Routers with the appropriate prefixes
+app.include_router(auth_router) 
+app.include_router(product_router, prefix="/api")
+app.include_router(stock_router, prefix="/api")
+app.include_router(order_router, prefix="/api")
+app.include_router(report_router, prefix="/api")
+app.include_router(user_router, prefix="/api")
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=True)
