@@ -3,7 +3,7 @@ from database import db
 from auth import require_roles, hash_password
 from models import CreateUserRequest
 
-router = APIRouter(prefix="/api/users", tags=["users"])
+router = APIRouter(prefix="/users", tags=["users"])
 
 @router.get("")
 @router.get("/")
