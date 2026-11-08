@@ -4,7 +4,7 @@ from database import db
 from auth import get_current_user, require_roles
 from models import CreateProductRequest, UpdateProductRequest
 
-router = APIRouter(prefix="/api/products", tags=["products"])
+router = APIRouter(prefix="/products", tags=["products"])
 
 @router.get("")
 @router.get("/")
