@@ -3,7 +3,7 @@ from database import db
 from auth import require_roles
 from models import UpdateStockRequest
 
-router = APIRouter(prefix="/api/stock", tags=["stock"])
+router = APIRouter(prefix="/stock", tags=["stock"])
 
 @router.get("/low-stock")
 async def get_low_stock(user: dict = Depends(require_roles("admin", "manager"))):
