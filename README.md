@@ -66,5 +66,10 @@ After running the seed command:
 Use mobile: `9999999999`
 Mock OTP: `123456`
 
+## Notes
+- Customer OTP is implemented as a mock/local flow so it can later be connected to Twilio or another SMS service.
+- Billing automatically reduces product stock.
+- Reports and dashboards use live database values.
+
 ---
 
