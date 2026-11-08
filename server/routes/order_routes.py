@@ -5,7 +5,7 @@ from auth import get_current_user, require_roles
 from models import CreateOrderRequest, UpdateOrderStatusRequest
 from utils.bill_number import generate_bill_number
 
-router = APIRouter(prefix="/api/orders", tags=["orders"])
+router = APIRouter(prefix="/orders", tags=["orders"])
 
 async def _populate_order(order: dict) -> dict:
     res = dict(order)
