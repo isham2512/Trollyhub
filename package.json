@@ -1,0 +1,5 @@
+{
+  "name": "trolly-hub",
+  "version": "1.0.0",
+  "description": "Trolly Hub - FastAPI backend + React frontend"
+}

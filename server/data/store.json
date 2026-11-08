@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "name": "Trolly Hub Admin",
+      "role": "admin",
+      "email": "admin@trollyhub.com",
+      "mobile": "9000000001",
+      "password": "$2b$12$owef7mZAzu/sddMZpnkQ5ecxzdPv9eGXThIrmiim49qU58Xwq1Gf6",
+      "isActive": true,
+      "_id": "a439a74c08424b7e9479ef32",
+      "createdAt": "2026-11-08T20:08:06.257911+00:00",
+      "updatedAt": "2026-11-08T20:08:06.257911+00:00"
+    },
+    {
+      "name": "Store Manager",
+      "role": "manager",
+      "email": "manager@trollyhub.com",
+      "mobile": "9000000002",
+      "password": "$2b$12$Va2Bufc3tUzu4HIJH8eGkeBU9nkXngvbL4s9FZr9anDKJglb8ToJm",
+      "isActive": true,
+      "_id": "b3babc8ffdcc44bc8bf808ad",
+      "createdAt": "2026-11-08T20:08:06.258400+00:00",
+      "updatedAt": "2026-11-08T20:08:06.258400+00:00"
+    },
+    {
+      "name": "Billing Employee",
+      "role": "employee",
+      "email": "employee@trollyhub.com",
+      "mobile": "9000000003",
+      "password": "$2b$12$aXpMMGcdyeBiRKRcDHzsuumOcDY7JnVHylV9McMkQQO1HuALZC3CO",
+      "isActive": true,
+      "_id": "cf46a5b7928044e297bcdcfb",
+      "createdAt": "2026-11-08T20:08:06.258630+00:00",
+      "updatedAt": "2026-11-08T20:08:06.258630+00:00"
+    },
+    {
+      "name": "Demo Customer",
+      "role": "customer",
+      "mobile": "9999999999",
+      "isActive": true,
+      "_id": "a669ba83b32c4f6ba6ac633f",
+      "createdAt": "2026-11-08T20:08:06.258829+00:00",
+      "updatedAt": "2026-11-08T20:08:06.258829+00:00"
+    },
+    {
+      "name": "New Shopper",
+      "mobile": "9888888888",
+      "email": "shopper@test.com",
+      "password": "$2b$12$.YtbTjVV6fqToWh1AvU9Xe4I5Dp4yEW8XPS22u.DAtpc/aedpg5Mu",
+      "role": "customer",
+      "isActive": true,
+      "_id": "d04b9a71602d4052b087093a",
+      "createdAt": "2026-11-08T20:08:07.082891+00:00",
+      "updatedAt": "2026-11-08T20:08:07.082891+00:00"
+    },
+    {
+      "name": "New Shift Cashier",
+      "role": "employee",
+      "email": "cashier2@trollyhub.com",
+      "mobile": "9111111111",
+      "password": "$2b$12$mSBPWN4AGjtrNK.ltSjXRO0BGOqhZB5/CdSbUhKwgKiYkdwNx43rO",
+      "isActive": true,
+      "_id": "d8aadcd276464ac0a6ec73ef",
+      "createdAt": "2026-11-08T20:08:07.322649+00:00",
+      "updatedAt": "2026-11-08T20:08:07.322649+00:00"
+    }
+  ],
+  "products": [
+    {
+      "product_name": "Rice 1kg",
+      "category": "Grocery",
+      "price": 60.0,
+      "stock": 100,
+      "barcode": "111001",
+      "unit": "kg",
+      "_id": "55cd62a4bccc4602af73f982",
+      "createdAt": "2026-11-08T20:08:06.259039+00:00",
+      "updatedAt": "2026-11-08T20:08:06.259039+00:00"
+    },
+    {
+      "product_name": "Milk 500ml",
+      "category": "Dairy",
+      "price": 30.0,
+      "stock": 50,
+      "barcode": "111002",
+      "unit": "pcs",
+      "_id": "271a069faae449f4961b8027",
+      "createdAt": "2026-11-08T20:08:06.259435+00:00",
+      "updatedAt": "2026-11-08T20:08:06.259435+00:00"
+    },
+    {
+      "product_name": "Bread",
+      "category": "Bakery",
+      "price": 35.0,
+      "stock": 40,
+      "barcode": "111003",
+      "unit": "pcs",
+      "_id": "bf7b8fd3b3b14096a514817b",
+      "createdAt": "2026-11-08T20:08:06.259683+00:00",
+      "updatedAt": "2026-11-08T20:08:06.259683+00:00"
+    },
+    {
+      "product_name": "Cooking Oil 1L",
+      "category": "Grocery",
+      "price": 150.0,
+      "stock": 20,
+      "barcode": "111004",
+      "unit": "L",
+      "_id": "62c344708f9e4b3389462797",
+      "createdAt": "2026-11-08T20:08:06.259911+00:00",
+      "updatedAt": "2026-11-08T20:08:06.259911+00:00"
+    },
+    {
+      "product_name": "Soap",
+      "category": "Personal",
+      "price": 25.0,
+      "stock": 75,
+      "barcode": "111005",
+      "unit": "pcs",
+      "_id": "fcd733e48f0045109c29b6a3",
+      "createdAt": "2026-11-08T20:08:06.260131+00:00",
+      "updatedAt": "2026-11-08T20:08:06.260131+00:00"
+    },
+    {
+      "product_name": "Biscuits",
+      "category": "Snacks",
+      "price": 22.0,
+      "stock": 43,
+      "barcode": "111006",
+      "unit": "pcs",
+      "_id": "69e4051acb0645d89bafe7b7",
+      "createdAt": "2026-11-08T20:08:06.260360+00:00",
+      "updatedAt": "2026-11-08T20:08:07.109255+00:00"
+    }
+  ],
+  "orders": [
+    {
+      "customer_id": "a669ba83b32c4f6ba6ac633f",
+      "employee_id": "a439a74c08424b7e9479ef32",
+      "total_amount": 44.0,
+      "date": "2026-11-08T20:08:07.109998+00:00",
+      "status": "Completed",
+      "payment_method": "Cash",
+      "order_type": "In-Store",
+      "takeaway_time": null,
+      "items": [
+        {
+          "product_id": "69e4051acb0645d89bafe7b7",
+          "product_name": "Biscuits",
+          "quantity": 2,
+          "price": 22.0,
+          "subtotal": 44.0
+        }
+      ],
+      "_id": "ea5ad4071aee4aa899be936e",
+      "createdAt": "2026-11-08T20:08:07.110014+00:00",
+      "updatedAt": "2026-11-08T20:08:07.116000+00:00"
+    }
+  ],
+  "bills": [
+    {
+      "order_id": "ea5ad4071aee4aa899be936e",
+      "bill_number": "TH-20261109-9293",
+      "total_amount": 44.0,
+      "tax_amount": 5.0,
+      "discount": 2.0,
+      "final_amount": 47.0,
+      "customer_mobile": "9999999999",
+      "_id": "de35726fddef402e9c18bf7e",
+      "createdAt": "2026-11-08T20:08:07.110350+00:00",
+      "updatedAt": "2026-11-08T20:08:07.110350+00:00",
+      "created_at": "2026-11-08T20:08:07.110350+00:00"
+    }
+  ],
+  "stock_logs": [
+    {
+      "product_id": "69e4051acb0645d89bafe7b7",
+      "updated_by": "a439a74c08424b7e9479ef32",
+      "old_stock": 90,
+      "new_stock": 45,
+      "change_type": "manual",
+      "_id": "168c45e3713d49249ff5b567",
+      "createdAt": "2026-11-08T20:08:07.101888+00:00",
+      "updatedAt": "2026-11-08T20:08:07.101888+00:00"
+    },
+    {
+      "product_id": "69e4051acb0645d89bafe7b7",
+      "updated_by": "a439a74c08424b7e9479ef32",
+      "old_stock": 45,
+      "new_stock": 43,
+      "change_type": "billing",
+      "_id": "50d9594aa13e48b0952dbd6b",
+      "createdAt": "2026-11-08T20:08:07.109673+00:00",
+      "updatedAt": "2026-11-08T20:08:07.109673+00:00"
+    }
+  ],
+  "otp_verifications": [
+    {
+      "mobile": "9999999999",
+      "otp": "123456",
+      "expiresAt": "2026-11-08T20:18:06.881301+00:00",
+      "verified": true,
+      "_id": "b43a515bd5a04662a5a08937",
+      "createdAt": "2026-11-08T20:08:06.881716+00:00",
+      "updatedAt": "2026-11-08T20:08:06.884017+00:00"
+    }
+  ]
+}
