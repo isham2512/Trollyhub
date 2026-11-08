@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends
 from database import db
 from auth import require_roles
 
-router = APIRouter(prefix="/api/reports", tags=["reports"])
+router = APIRouter(prefix="/reports", tags=["reports"])
 
 def _get_today_utc_start():
     now_utc = datetime.now(timezone.utc)
