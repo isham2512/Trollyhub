@@ -1,4 +1,4 @@
-.# Trolly Hub
+# Trolly Hub
 
 Trolly Hub is a modern full-stack supermarket POS and management system built with React, FastAPI (Python), and MongoDB / Local Persistent Store.
 
